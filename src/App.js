@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/my-personal-website">
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
