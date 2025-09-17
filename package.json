@@ -2,7 +2,7 @@
   "name": "my-personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Muskan-88.github.io/my-personal-website",
+  "homepage": "https://Muskan-88.github.io",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
