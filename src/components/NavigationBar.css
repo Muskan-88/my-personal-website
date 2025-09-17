@@ -1,0 +1,26 @@
+.custom-navbar {
+  background: #d1edff63;
+  backdrop-filter: blur(15px); 
+  border-bottom: none; 
+  padding: 0.5rem 1rem;
+}
+
+.nav-link {
+  color: #ffffff;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #61dafb; 
+  transform: translateY(-2px);
+}
+
+.navbar-toggle {
+  border: none; 
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); 
+}

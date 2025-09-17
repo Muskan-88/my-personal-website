@@ -1,0 +1,67 @@
+.home-container {
+  background: linear-gradient(-45deg, #070c46, #1a1a72, #0f0f2f, #2c2c8a);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Plain Background Code
+.home-container {
+  background-color: #070c46; 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+To implment, delete lines 1-16 above and uncomment.
+*/
+
+.content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .content p {
+    font-size: 1rem;
+  }
+}
